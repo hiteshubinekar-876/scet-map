@@ -1,0 +1,6 @@
+QR format examples:
+Gate/start QR: https://YOUR-DOMAIN/start?node=GATE (or homepage?node=GATE)
+Checkpoint QR: https://YOUR-DOMAIN/?node=F1_STAIRS
+Room QR: https://YOUR-DOMAIN/verify?target=F1_S34&node=F1_S34
+
+For this starter, the scanner reads node=... or the final path segment. Use a URL that contains the room ID in the path, e.g. https://YOUR-DOMAIN/verify/F1_S34, or query node=F1_S34. The verification page checks the scanned ID against the selected/saved target.

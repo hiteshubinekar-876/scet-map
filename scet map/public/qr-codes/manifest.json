@@ -1,0 +1,242 @@
+[
+  {
+    "nodeId": "GATE",
+    "name": "Main Gate",
+    "floor": 0,
+    "category": "entrance",
+    "url": "http://localhost:3000/?node=GATE",
+    "instructions": "Scan with your normal phone camera to open CampusPath directly and set your starting location.",
+    "pngFile": "/qr-codes/gate.png",
+    "svgFile": "/qr-codes/gate.svg"
+  },
+  {
+    "nodeId": "GATE_MAIN",
+    "name": "Main Campus Entrance",
+    "floor": 0,
+    "category": "entrance",
+    "url": "http://localhost:3000/?node=GATE_MAIN",
+    "instructions": "Scan with your normal phone camera to open CampusPath directly and set your starting location.",
+    "pngFile": "/qr-codes/gate_main.png",
+    "svgFile": "/qr-codes/gate_main.svg"
+  },
+  {
+    "nodeId": "G_J1",
+    "name": "Ground corridor junction",
+    "floor": 0,
+    "category": "junction",
+    "url": "http://localhost:3000/?node=G_J1",
+    "instructions": "Scan with phone camera at this corridor junction to reset your starting position.",
+    "pngFile": "/qr-codes/g_j1.png",
+    "svgFile": "/qr-codes/g_j1.svg"
+  },
+  {
+    "nodeId": "G_CORR_WEST",
+    "name": "Ground West Junction",
+    "floor": 0,
+    "category": "junction",
+    "url": "http://localhost:3000/?node=G_CORR_WEST",
+    "instructions": "Scan with phone camera at this corridor junction to reset your starting position.",
+    "pngFile": "/qr-codes/g_corr_west.png",
+    "svgFile": "/qr-codes/g_corr_west.svg"
+  },
+  {
+    "nodeId": "G_STAIRS",
+    "name": "Ground Stairs",
+    "floor": 0,
+    "category": "stair_lift",
+    "url": "http://localhost:3000/?node=G_STAIRS",
+    "instructions": "Scan with phone camera to open website and route from this floor transition.",
+    "pngFile": "/qr-codes/g_stairs.png",
+    "svgFile": "/qr-codes/g_stairs.svg"
+  },
+  {
+    "nodeId": "G_LIFT",
+    "name": "Ground Elevator",
+    "floor": 0,
+    "category": "stair_lift",
+    "url": "http://localhost:3000/?node=G_LIFT",
+    "instructions": "Scan with phone camera to open website and route from this floor transition.",
+    "pngFile": "/qr-codes/g_lift.png",
+    "svgFile": "/qr-codes/g_lift.svg"
+  },
+  {
+    "nodeId": "G_F16",
+    "name": "Room F-16 (Lecture Hall 101)",
+    "floor": 0,
+    "category": "classroom",
+    "url": "http://localhost:3000/verify?target=G_F16&node=G_F16",
+    "instructions": "Scan with the in-app camera scanner upon arrival outside this location to verify your destination.",
+    "pngFile": "/qr-codes/g_f16.png",
+    "svgFile": "/qr-codes/g_f16.svg"
+  },
+  {
+    "nodeId": "G_F21",
+    "name": "Room F-21 (Physics Seminar)",
+    "floor": 0,
+    "category": "classroom",
+    "url": "http://localhost:3000/verify?target=G_F21&node=G_F21",
+    "instructions": "Scan with the in-app camera scanner upon arrival outside this location to verify your destination.",
+    "pngFile": "/qr-codes/g_f21.png",
+    "svgFile": "/qr-codes/g_f21.svg"
+  },
+  {
+    "nodeId": "G_ADMIN",
+    "name": "Administration Office",
+    "floor": 0,
+    "category": "office",
+    "url": "http://localhost:3000/verify?target=G_ADMIN&node=G_ADMIN",
+    "instructions": "Scan with the in-app camera scanner upon arrival outside this location to verify your destination.",
+    "pngFile": "/qr-codes/g_admin.png",
+    "svgFile": "/qr-codes/g_admin.svg"
+  },
+  {
+    "nodeId": "G_RESTROOM",
+    "name": "Ground Floor Restrooms",
+    "floor": 0,
+    "category": "restroom",
+    "url": "http://localhost:3000/verify?target=G_RESTROOM&node=G_RESTROOM",
+    "instructions": "Scan with the in-app camera scanner upon arrival outside this location to verify your destination.",
+    "pngFile": "/qr-codes/g_restroom.png",
+    "svgFile": "/qr-codes/g_restroom.svg"
+  },
+  {
+    "nodeId": "F1_STAIRS",
+    "name": "First floor stairs",
+    "floor": 1,
+    "category": "stair_lift",
+    "url": "http://localhost:3000/?node=F1_STAIRS",
+    "instructions": "Scan with phone camera to open website and route from this floor transition.",
+    "pngFile": "/qr-codes/f1_stairs.png",
+    "svgFile": "/qr-codes/f1_stairs.svg"
+  },
+  {
+    "nodeId": "F1_LIFT",
+    "name": "First floor elevator",
+    "floor": 1,
+    "category": "stair_lift",
+    "url": "http://localhost:3000/?node=F1_LIFT",
+    "instructions": "Scan with phone camera to open website and route from this floor transition.",
+    "pngFile": "/qr-codes/f1_lift.png",
+    "svgFile": "/qr-codes/f1_lift.svg"
+  },
+  {
+    "nodeId": "F1_J1",
+    "name": "First floor junction",
+    "floor": 1,
+    "category": "junction",
+    "url": "http://localhost:3000/?node=F1_J1",
+    "instructions": "Scan with phone camera at this corridor junction to reset your starting position.",
+    "pngFile": "/qr-codes/f1_j1.png",
+    "svgFile": "/qr-codes/f1_j1.svg"
+  },
+  {
+    "nodeId": "F1_CORR_WEST",
+    "name": "First floor west junction",
+    "floor": 1,
+    "category": "junction",
+    "url": "http://localhost:3000/?node=F1_CORR_WEST",
+    "instructions": "Scan with phone camera at this corridor junction to reset your starting position.",
+    "pngFile": "/qr-codes/f1_corr_west.png",
+    "svgFile": "/qr-codes/f1_corr_west.svg"
+  },
+  {
+    "nodeId": "F1_S34",
+    "name": "Room S-34 (Multimedia Class)",
+    "floor": 1,
+    "category": "classroom",
+    "url": "http://localhost:3000/verify?target=F1_S34&node=F1_S34",
+    "instructions": "Scan with the in-app camera scanner upon arrival outside this location to verify your destination.",
+    "pngFile": "/qr-codes/f1_s34.png",
+    "svgFile": "/qr-codes/f1_s34.svg"
+  },
+  {
+    "nodeId": "F1_S36",
+    "name": "Room S-36 (Electronics Class)",
+    "floor": 1,
+    "category": "classroom",
+    "url": "http://localhost:3000/verify?target=F1_S36&node=F1_S36",
+    "instructions": "Scan with the in-app camera scanner upon arrival outside this location to verify your destination.",
+    "pngFile": "/qr-codes/f1_s36.png",
+    "svgFile": "/qr-codes/f1_s36.svg"
+  },
+  {
+    "nodeId": "F1_DEPT_CS",
+    "name": "Computer Science Dept Office",
+    "floor": 1,
+    "category": "office",
+    "url": "http://localhost:3000/verify?target=F1_DEPT_CS&node=F1_DEPT_CS",
+    "instructions": "Scan with the in-app camera scanner upon arrival outside this location to verify your destination.",
+    "pngFile": "/qr-codes/f1_dept_cs.png",
+    "svgFile": "/qr-codes/f1_dept_cs.svg"
+  },
+  {
+    "nodeId": "F1_RESTROOM",
+    "name": "First floor restrooms",
+    "floor": 1,
+    "category": "restroom",
+    "url": "http://localhost:3000/verify?target=F1_RESTROOM&node=F1_RESTROOM",
+    "instructions": "Scan with the in-app camera scanner upon arrival outside this location to verify your destination.",
+    "pngFile": "/qr-codes/f1_restroom.png",
+    "svgFile": "/qr-codes/f1_restroom.svg"
+  },
+  {
+    "nodeId": "F2_STAIRS",
+    "name": "Second floor stairs",
+    "floor": 2,
+    "category": "stair_lift",
+    "url": "http://localhost:3000/?node=F2_STAIRS",
+    "instructions": "Scan with phone camera to open website and route from this floor transition.",
+    "pngFile": "/qr-codes/f2_stairs.png",
+    "svgFile": "/qr-codes/f2_stairs.svg"
+  },
+  {
+    "nodeId": "F2_LIFT",
+    "name": "Second floor elevator",
+    "floor": 2,
+    "category": "stair_lift",
+    "url": "http://localhost:3000/?node=F2_LIFT",
+    "instructions": "Scan with phone camera to open website and route from this floor transition.",
+    "pngFile": "/qr-codes/f2_lift.png",
+    "svgFile": "/qr-codes/f2_lift.svg"
+  },
+  {
+    "nodeId": "F2_J1",
+    "name": "Second floor junction",
+    "floor": 2,
+    "category": "junction",
+    "url": "http://localhost:3000/?node=F2_J1",
+    "instructions": "Scan with phone camera at this corridor junction to reset your starting position.",
+    "pngFile": "/qr-codes/f2_j1.png",
+    "svgFile": "/qr-codes/f2_j1.svg"
+  },
+  {
+    "nodeId": "F2_LAB",
+    "name": "Computer Lab 201",
+    "floor": 2,
+    "category": "lab",
+    "url": "http://localhost:3000/verify?target=F2_LAB&node=F2_LAB",
+    "instructions": "Scan with the in-app camera scanner upon arrival outside this location to verify your destination.",
+    "pngFile": "/qr-codes/f2_lab.png",
+    "svgFile": "/qr-codes/f2_lab.svg"
+  },
+  {
+    "nodeId": "F2_LAB_204",
+    "name": "AI & Robotics Lab 204",
+    "floor": 2,
+    "category": "lab",
+    "url": "http://localhost:3000/verify?target=F2_LAB_204&node=F2_LAB_204",
+    "instructions": "Scan with the in-app camera scanner upon arrival outside this location to verify your destination.",
+    "pngFile": "/qr-codes/f2_lab_204.png",
+    "svgFile": "/qr-codes/f2_lab_204.svg"
+  },
+  {
+    "nodeId": "F2_LIBRARY",
+    "name": "Digital Reading Library",
+    "floor": 2,
+    "category": "classroom",
+    "url": "http://localhost:3000/verify?target=F2_LIBRARY&node=F2_LIBRARY",
+    "instructions": "Scan with the in-app camera scanner upon arrival outside this location to verify your destination.",
+    "pngFile": "/qr-codes/f2_library.png",
+    "svgFile": "/qr-codes/f2_library.svg"
+  }
+]
